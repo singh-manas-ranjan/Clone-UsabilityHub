@@ -159,11 +159,11 @@ ul{
 }
 
 .main-nav-right.active{
-    height: 650px;
+    height: auto;
 }
 
 .button-group{
-    gap: 20px;
+    gap: 15px;
 }
 
 .nav-toggle{
