@@ -310,7 +310,7 @@ ul{
    } */
 
    .features-section{
-    padding: 50px var(--padding-inline-section) 0;
+    padding: 50px var(--padding-inline-section) 50px;
    }
    
    .features-header{
