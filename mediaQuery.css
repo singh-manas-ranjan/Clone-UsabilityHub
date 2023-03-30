@@ -81,7 +81,7 @@
 
     .features-section{
         margin-block: 80px;
-        padding: 80px var(--padding-inline-section) 0;
+        padding: 80px var(--padding-inline-section) 80px;
         background-image: url(./assets/asset\ 41.png);
         background-repeat: no-repeat;
         background-position: center;
