@@ -151,7 +151,7 @@ ul{
 
 .main-nav-items{
     display: grid;
-    gap: 40px;
+    gap: 30px;
     align-items: start;
     padding-inline: 30px;
     background-color: #fff;
@@ -166,8 +166,8 @@ ul{
     gap: 20px;
 }
 
-.button-group *{
-    width: 100%
+.button-group > a{
+    width: 100%;
 }
 
 .nav-toggle{
