@@ -1,0 +1,376 @@
+@media screen and (min-width: 768px) {
+
+
+    /* Nav-Bar */
+
+    .main-nav-bar{
+        justify-content: space-between;
+    }
+
+    a.nav-toggle{
+        display: none;
+    }
+
+    .main-nav-right.active{
+        height: initial;
+    }
+
+    .main-nav-right{
+        position: initial;
+        height: auto;
+        flex-basis: 520px;
+    }
+
+    .main-nav-items{
+        display: flex;
+        gap: 10px;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-inline: initial;
+        margin-top: -10px;
+        background-color: #fff;
+        padding-block: var(--padding-inline-section);
+        font-weight: 500;
+    }
+
+    .button-group{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /* Hero-section */
+
+    .hero-section{
+        flex-direction: initial;
+        justify-content: space-between;
+    }
+
+    .hero-section-left{
+        flex-basis: 50%;
+        text-align: initial;
+        padding-inline: 10px;
+        gap: 20px;
+    }
+
+    .hero-section-right{
+        flex-basis: 60%;
+    }
+
+    /* h1.hero-section-title{
+     font-size: 2.5rem;
+     line-height: 3.4375rem;
+    }
+
+    p.hero-section-paragraph{
+        padding: 0;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    } */
+    
+    a.get-started-btn{ 
+        margin-top: 10px;
+        width: 150px;
+        justify-self: start;
+        padding: 16px 32px;
+    } 
+
+    /* COmpanies-Section */
+
+    /* Features-Section */
+
+    .features-section{
+        background-image: url(./assets/asset\ 41.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .features-items-card{
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 40px;
+        padding: 30px var(--padding-inline-section) 0;
+    }
+
+   
+    /* Big-Features-Section */
+
+    .big-features-section{
+        padding: 80px var(--padding-inline-section) 0;
+    }
+    
+    .big-features-section-inner-container{
+        flex-direction: initial;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    .row-reverse{
+        flex-direction: row-reverse;
+    }
+
+    .left-section{
+        padding: 0;
+    }
+
+   .left-section > img{
+    width: 100%;
+   }
+
+   .testimonial{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+   }
+   
+   .quot{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+    /* Examples-Section */
+
+    .examples-section{
+        padding: 80px var(--padding-inline-section) 0;
+       }
+
+    .cards-list{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    /* Promotion-Section */
+
+    .promotion-section-inner{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .promotion-top{
+        flex-basis: 50%;
+    }
+
+    .pricing-img{
+        width: 100%;
+    }
+
+    .promotion-bottom{
+        flex-basis: 50%;
+    }
+
+    .promotion-description,
+    .pannel{
+        text-align: initial;
+    }
+
+    /* h2.promotion-description-title{
+        font-size: 1.8rem;
+    }
+
+    p.promotion-description-paragraph{
+        font-size: 1.1rem;
+    } */
+
+    .pannel{
+        align-items: flex-start;
+    }
+
+    li.list-point{
+        list-style-type: disc;
+        height: auto;
+        padding: 5px;
+        /* font-size: 1rem; */
+    }
+
+    a.promotion-button{
+        width: 150px;
+        padding: 16px 32px;
+        margin-left: 10px;
+    }
+
+    /* CTA-Section */
+
+    .cta-section{
+        padding: 50px var(--padding-inline-section) 100px;
+    } 
+
+    /* Sub-Footer-Section */
+
+    .sub-footer-container{
+        flex-direction: initial;
+        align-items: flex-start;
+        text-align: initial;
+        background-color: #ebf2fa;
+        justify-content: space-evenly;
+       }
+
+    .sub-footer-list{
+        width: max-content;
+    }
+       
+    /* h4.sub-footer-headings{
+        font-size: 1.125rem;
+        font-weight: 600;
+    } */
+
+    p.link{
+        /* font-size: 1.1rem; */
+        padding-block: 3px;
+    }
+
+    /* Footer-section */
+
+    .footer-contents{
+        gap: 15px;
+        justify-content: space-around;
+        text-align: center;
+        flex-wrap: initial;
+    }
+    
+   .footer-links{
+    flex-basis: 70%;
+    gap: 30px;
+    justify-content: center;
+   }
+
+   /* .footer-links *{
+    font-size: .9rem;
+   } */
+
+   .social-media{
+    flex-basis: 30%;
+    justify-content: flex-start;
+   }
+
+   a.social-media-link{
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+   }
+
+   .chat-btn{
+    right: 20px;
+    bottom: 60px;
+   }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .small-bold-text{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .main-nav-right{
+
+        flex-basis: 650px;
+    }
+
+    .main-nav-items{
+        gap: 30px;
+        justify-content: space-evenly;
+    }
+
+    .button-group{
+        gap: 30px;
+        justify-content: space-evenly;
+    }
+
+    /* Header-Section */
+
+    h1.hero-section-title{
+    font-size: 2.5rem;
+   }
+
+   p.hero-section-paragraph{
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+   } 
+
+    /* Examples-Section */
+
+    header.examples-header{
+        gap: 10px;
+    }
+    
+    h2.example-header-title{
+        font-size: 2rem;
+    }
+
+    a.card{
+        height: 300px;
+    } 
+
+    /* Companies-section */
+    p.companies-header-title{
+        font-size: 1rem;
+       }
+
+    /* Features-Section */
+
+   
+
+    /* Big-Features-Section */
+
+    p.small-title,
+    .big-feature-header-paragraph{
+        font-size: 1.125rem;
+        line-height: 25px;
+    }
+
+    h2.big-feature-header-title{
+        font-size: 1.8rem;
+    }
+
+      /* Examples_section */
+    .cards-list{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    /* Promotion-Section */
+
+    h2.promotion-description-title{
+        font-size: 1.9rem;
+    }
+
+    /* CTA-Section */
+
+    h1.cta-heading{
+        font-size: 2.1rem;
+    }
+
+    /* ======================
+       Sub-Footer Section
+      ====================== */
+   
+      .sub-footer-container{
+        gap: 100px;
+        padding-inline: 40px;
+        justify-content: space-around;
+       }
+
+       h4.sub-footer-headings{
+        font-weight: 600;
+    }
+    
+
+    /* ======================
+         Footer Section
+    ====================== */
+        
+   .footer-links{
+    justify-content: center;
+    flex-basis: 80%;
+   }
+
+   .social-media{
+    justify-content: flex-start;
+   }
+   .social-media{
+    flex-basis: 30%;
+   }
+
+ 
+
+
+}
