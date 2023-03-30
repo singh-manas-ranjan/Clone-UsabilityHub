@@ -95,7 +95,7 @@
     /* Big-Features-Section */
 
     .big-features-section{
-        padding: 80px var(--padding-inline-section) 0;
+        padding: 120px var(--padding-inline-section) 0;
     }
     
     .big-features-section-inner-container{
@@ -111,10 +111,6 @@
     .left-section{
         padding: 0;
     }
-
-   .left-section > img{
-    width: 100%;
-   }
 
    .testimonial{
     display: flex;
