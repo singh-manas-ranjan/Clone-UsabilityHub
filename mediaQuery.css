@@ -79,7 +79,8 @@
     /* Features-Section */
 
     .features-section{
-        margin-top: 50px;
+        margin-top: 80px;
+        padding: 80px var(--padding-inline-section) 0;
         background-image: url(./assets/asset\ 41.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -88,7 +89,6 @@
     .features-items-card{
         grid-template-columns: repeat(3,1fr);
         row-gap: 40px;
-        padding: 30px var(--padding-inline-section) 0;
     }
 
    
