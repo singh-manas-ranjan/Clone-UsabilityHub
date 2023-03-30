@@ -166,10 +166,6 @@ ul{
     gap: 20px;
 }
 
-.button-group > a{
-    width: 100%;
-}
-
 .nav-toggle{
     color: var(--primary-text-color);
     align-self: flex-start;
