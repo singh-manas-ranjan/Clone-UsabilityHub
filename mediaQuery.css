@@ -177,6 +177,7 @@
     }
 
     a.promotion-button{
+        width: initial;
         margin-left: 10px;
     }
 
@@ -319,21 +320,7 @@
 
    a.get-started-btn{
     padding: var(--big-button-padding);
-   }
-
-    /* Examples-Section */
-
-    header.examples-header{
-        gap: 10px;
     }
-    
-    h2.example-header-title{
-        font-size: 2rem;
-    }
-
-    a.card{
-        height: 300px;
-    } 
 
     /* Companies-section */
 
@@ -364,7 +351,7 @@
        
        .features-section{
            padding: 50px var(--padding-inline-section) 0;
-           min-height: 100vh;
+           min-height: 90vh;
         }
         
         .features-section{
@@ -398,6 +385,7 @@
             line-height: 1.8rem;
             padding-inline: 50px;
         }
+    
     /* Big-Features-Section */
 
     .big-features-section-inner-container{
@@ -446,6 +434,18 @@
     .cards-list{
         grid-template-columns: repeat(4,1fr);
     }
+
+    header.examples-header{
+        gap: 10px;
+    }
+    
+    h2.example-header-title{
+        font-size: 2rem;
+    }
+
+    a.card{
+        height: 300px;
+    } 
 
     p.card-text{
         font-size: 1.5rem;
