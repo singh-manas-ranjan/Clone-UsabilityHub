@@ -12,6 +12,8 @@
     --accent-color : #2294ed;
     --accent-color-dark : #00618d;
     --padding-inline-section :20px;
+    --medium-button-padding: 14px 28px;
+    --big-button-padding: 16px 32px;
 }
 
 body{
@@ -206,7 +208,7 @@ ul{
 
   a.get-started-btn{ 
     margin-top: 10px;
-    width: 150px;
+    padding: var(--medium-button-padding);
     justify-self: center;
    } 
 
@@ -606,6 +608,7 @@ p.card-text{
    }
 
    a.promotion-button{
+    padding: var(--medium-button-padding);
     width: 100%;
    }
 
@@ -629,7 +632,7 @@ p.card-text{
    }
    
    a.cta-button{
-    padding: 14px 28px;
+    padding: var(--medium-button-padding);
    }
 
 /* ======================
