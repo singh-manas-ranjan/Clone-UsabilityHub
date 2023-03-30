@@ -75,6 +75,8 @@
     } 
 
     /* COmpanies-Section */
+    
+     padding: 80px var(--padding-inline-section) 80px;
 
     /* Features-Section */
 
