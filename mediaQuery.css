@@ -69,9 +69,7 @@
     
     a.get-started-btn{ 
         margin-top: 10px;
-        width: 150px;
         justify-self: start;
-        padding: 16px 32px;
     } 
 
     /* Companies-Section */
@@ -179,8 +177,6 @@
     }
 
     a.promotion-button{
-        width: 150px;
-        padding: 16px 32px;
         margin-left: 10px;
     }
 
