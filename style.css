@@ -142,7 +142,7 @@ ul{
     right: 0;
     height: 0;
     overflow: hidden;
-    transition: height .2s ease;
+    transition: height .5s ease;
 }
 
 .main-nav-img{
@@ -159,7 +159,7 @@ ul{
 }
 
 .main-nav-right.active{
-    height: auto;
+    height: 600px;
 }
 
 .button-group{
